@@ -1,6 +1,6 @@
 # QuoteSite
 A website that displays famous quotes on nice backgrounds.
-![Screenshot](/quotesite-screenshot.png)
+![Screenshot](https://github.com/what-name/Docker-Images/blob/master/QuoteSite/quotesite-screenshot.png?raw=true "Screenshot")
 
 # Note
 This is a very old project of mine. The code is pretty bad and way too complicated. I just wanted to include it here just because.
