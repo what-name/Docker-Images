@@ -1,0 +1,14 @@
+version: '2'
+services:
+  web:
+    image: "fauria/lamp"
+    container_name: LAMP
+    restart: always
+    ports:
+      - "90:80"
+    volumes:
+      - ${PWD}/web:/var/www/html
+      - ${PWD}/data:/srv/data
+    environment:
+      - LOG_LEVEL=debug
+    command: bash /srv/data/startup.sh
