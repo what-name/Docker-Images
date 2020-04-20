@@ -1,0 +1,1 @@
+`docker run -d -p 3000:3000 -v /your/data/folder:/usr/src/app/data whatname/basic-filebrowser`
