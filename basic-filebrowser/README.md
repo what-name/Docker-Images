@@ -2,7 +2,7 @@
 # INFO
 This is a very basic file browser that lets you expose a local directory through the browser. Built with NodeJS and Express. Read-Only.
 
-![Alt text](/data/screenshot.png?raw=true "Screenshot")
+![Alt text](basic-filebrowser/data/screenshot.png?raw=true "Screenshot")
 
 # Use case
 I have a seedbox that I wanted to be accessible to friends, but SFTP was too much of a hassle. This was made for them to simply be able to download any file from my server without any unnecessary steps. Simple as that.
