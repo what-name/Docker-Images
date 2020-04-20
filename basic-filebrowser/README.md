@@ -17,3 +17,4 @@ I have a seedbox that I wanted to be accessible to friends, but SFTP was too muc
 `docker run -d -p 3000:3000 -v /your/data/folder:/usr/src/app/data whatname/basic-filebrowser`
 - replace "your/data/folder" with the folder you want to expose
 - navigate to your server's port :3000
+- make sure the user who's running the container has access to the directory's files
